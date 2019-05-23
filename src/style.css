@@ -46,3 +46,11 @@
  button:hover {
    background-color: grey;
  }
+
+ .isDisabled {
+   opacity: 0.3;
+ }
+
+ .isDisabled:hover {
+   background: #ddd;
+ }
