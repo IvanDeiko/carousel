@@ -1,0 +1,48 @@
+ 
+ div {
+   width: 500px;
+   background-color: #ddd;
+   height: 130px;
+   border-radius: 10px;
+   position: relative;
+}
+ 
+ #container {
+   display: flex;
+   padding: 0;
+   width: 390px;
+   margin: auto;  
+   overflow: hidden;
+ }
+
+ #container > li {
+   list-style-type: none;
+ }
+
+ button {
+   position: absolute;
+   top: 50px;
+   padding: 0;
+   background: #ddd;
+   border-radius: 15px;
+   border: 1px solid gray;
+   font-size: 24px;
+   line-height: 24px;
+   color: #444;
+   display: block;
+   outline: none;
+   cursor: pointer;
+ }
+
+ #next {
+   right: 7px;
+ }
+
+ #previous {
+   left: 7px;
+   
+ }
+
+ button:hover {
+   background-color: grey;
+ }
